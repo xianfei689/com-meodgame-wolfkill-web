@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <meta content="width=device-width, target-densitydpi=320, user-scalable=no" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="app-id=640076621" name="apple-itunes-app">
+    <meta name="keywords" content="狼人杀" />
+    <meta name="description" content="狼人杀">
+    <title>全民狼人杀</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+<!--     <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?039243a37954487bf0f2e23ace28320c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+
+    (function() {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'js/push.js';
+        } else {
+            bp.src = 'js/push1.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script> -->
+</head>
+
+<body>
+    <div class="bigbox">
+        <div class="wolf_phone"><img src="img/tu.png"></div>
+        <div class="wolf_box">
+            <div class="tit"><img src="img/word.png"></div>
+            <div class="fl"><img src="img/二维码.png"></div>
+            <div class="wolf_btn">
+                <a href="https://itunes.apple.com/cn/app/%E5%85%A8%E6%B0%91%E7%8B%BC%E4%BA%BA%E6%9D%80-%E5%BC%80%E5%A7%8B%E4%BD%A0%E7%9A%84%E8%A1%A8%E6%BC%94/id1195337363?mt=8" class="app"></a>
+                <a href="#" class="android"></a>
+            </div>
+        </div>
+    </div>
+    <div class="wolf_foot">
+        <ul>
+            <a href="#">QQ群：304173879</a>
+            <a href="#">微信公众号：萌点游戏中心</a>
+        </ul>
+    </div>
+    <div class="wolf_bg"></div>
+    <div class="wolf_bg2"></div>
+    <div id="weixin-tip" style="display:none;">
+        <p><img src="./images/live_weixin.png" style="width:99%" alt="狼人杀微信打开"></p>
+    </div>
+    <style>
+    #weixin-tip {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.8);
+        filter: alpha(opacity=80);
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+    }
+
+    #weixin-tip p {
+        text-align: center;
+        margin-top: 10%;
+        padding: 0 5%;
+    }
+    </style>
+    <script type="text/javascript">
+    function is_weixin() {
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    var isWeixin = is_weixin();
+    if (isWeixin) {
+        var weixinTip = document.getElementById('weixin-tip');
+        weixinTip.style.display = 'block';
+    }
+    </script>
+</body>
+
+</html>

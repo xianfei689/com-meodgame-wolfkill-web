@@ -1,0 +1,295 @@
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="    -" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"> -->
+    <link rel="stylesheet" href="css/pure/pure-min.css">
+    <link rel="stylesheet" href="css/pure/grids-responsive-min.css">
+    <link rel="stylesheet" href="css/pure/font-awesome.css">
+    <link rel="stylesheet" href="css/layouts/marketing.css">
+    <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="jquery.particleground.min.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+    <style type="text/css">
+    #splash-container {
+        background: #2C345B;
+        z-index: 1;
+        overflow: hidden;
+        width: 100%;
+        height: 88%;
+        top: 0;
+        left: 0;
+    }
+
+    .splash {
+        width: 2em;
+        margin-top: 0.7em;
+        text-align: left;
+        padding-top: 0.5em;
+    }
+
+    .lang_title {
+        width: 2.5em;
+        right: -1.1em;
+        top: .2em;
+        position: absolute;
+    }
+
+    .lang_erwei {
+        width: 1em;
+        position: absolute;
+        top: 1.6em;
+        right: .4em;
+    }
+
+    .lang_iphone {
+        width: 1.1em;
+        position: absolute;
+        right: -1em;
+        top: 1.7em;
+    }
+
+    .lang_android {
+        width: 1.1em;
+        position: absolute;
+        right: -1em;
+        top: 2.2em;
+    }
+
+    .lang_tu {
+        position: absolute;
+        left: -1.2em;
+        width: 1.5em;
+    }
+
+    .wolf_phone {
+        position: relative;
+    }
+
+    .home-menu {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(15, 25, 50, .3)), to(rgba(15, 25, 50, .3)));
+        background-image: -moz-linear-gradient(rgba(15, 25, 50, .3) 0, rgba(15, 25, 50, .3) 100%);
+        background-image: -ms-linear-gradient(rgba(15, 25, 50, .3) 0, rgba(15, 25, 50, .3) 100%);
+        background-image: -o-linear-gradient(rgba(15, 25, 50, .3) 0, rgba(15, 25, 50, .3) 100%);
+        background-image: linear-gradient(rgba(15, 25, 50, .3) 0, rgba(15, 25, 50, 0.3) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#330f1932, endColorstr=#330f1932);
+    }
+
+    .pure-menu-selected .pure-menu-link,
+    .pure-menu-selected .home-menu a {
+        color: #fff;
+    }
+
+    .pure-menu-link:visited {
+        background-color: red;
+    }
+
+    .home-menu:hover {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(15, 25, 50, .8)), to(rgba(15, 25, 50, .8)));
+        background-image: -moz-linear-gradient(rgba(15, 25, 50, 0.8) 0, rgba(15, 25, 50, 0.8) 100%);
+        background-image: -ms-linear-gradient(rgba(15, 25, 50, 0.8) 0, rgba(15, 25, 50, 0.8) 100%);
+        background-image: -o-linear-gradient(rgba(15, 25, 50, 0.8) 0, rgba(15, 25, 50, 0.8) 100%);
+        background-image: linear-gradient(rgba(15, 25, 50, 0.8) 0, rgba(15, 25, 50, 00.8) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#330f1932, endColorstr=#330f1932);
+    }
+
+    .splash_phone {
+        display: none;
+    }
+
+    .head-title:hover {
+        color: #6FBEF3;
+    }
+
+    .home-menu li a:hover {
+        color: #6FBEF3;
+    }
+
+    .home-menu a {
+        color: #fff;
+    }
+    /* @media(max-width: 765px) { .wolf_phone { background-color: yellow; } .lang_tu { width: 50%; } }*/
+
+    @media(max-width: 2500px) {
+        @media(min-width: 320px) {
+            .splash {
+                font-size: 650%;
+                /*display: none;*/
+            }
+        }
+        @media(min-width: 670px) {
+            .splash {
+                font-size: 900%;
+            }
+        }
+        @media(min-width: 750px) {
+            .splash {
+                font-size: 900%;
+            }
+        }
+        @media(min-width: 1200px) {
+            .splash {
+                font-size: 1000%;
+            }
+        }
+    }
+
+    @media (max-width:420px) {
+        /*手机下适配*/
+        .splash {
+            display: none;
+        }
+        .splash_phone {
+            padding-top: 1em;
+            width: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            text-align: center;
+        }
+        .sPhone_bg {
+            width: 79%;
+            height: 40em;
+        }
+        .sPhone1 {
+            position: relative;
+            bottom: 14em;
+            width: 67%;
+        }
+        .sPhone2 {
+            position: relative;
+            width: 67%;
+            bottom: 13em;
+        }
+        .sp_cont {
+            position: relative;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+            <a class="pure-menu-heading  head-title" href="">全名狼人杀</a>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-selected"><a href="#" class=" head-title pure-menu-link">Home</a></li>
+                <li class="pure-menu-item "><a href="#" class="pure-menu-link head-title">简介</a></li>
+                <li class="pure-menu-item "><a href="#" class="pure-menu-link head-title">登录</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="splash-container">
+        <canvas class="pg-canvas" width="1920" height="538"></canvas>
+        <div class="splash">
+            <div class="wolf_phone">
+                <img src="img/tu.png" class="lang_tu">
+                <img src="img/word.png" class="lang_title" style="float: right;">
+                <img src="img/二维码.png" class="lang_erwei">
+                <img src="img/苹果.png" alt="" class="lang_iphone" onclick="window.location.href='https://itunes.apple.com/cn/app/%E5%85%A8%E6%B0%91%E7%8B%BC%E4%BA%BA%E6%9D%80-%E5%BC%80%E5%A7%8B%E4%BD%A0%E7%9A%84%E8%A1%A8%E6%BC%94/id1195337363?mt=8'">
+                <img src="img/Android.png" alt="" class="lang_android" onclick="window.location.href='www.baidu.com'">
+            </div>
+        </div>
+        <div class="splash_phone">
+            <div class="sp_cont">
+                <img src="img/tu1.png" alt="" class="sPhone_bg">
+                <img src="img/苹果1.png" class="sPhone1">
+                <img src="img/Android1.png" class="sPhone2">
+            </div>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="content">
+            <h2 class="content-head is-center">Excepteur sint occaecat cupidatat.</h2>
+            <div class="pure-g">
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead">
+                    <i class="fa fa-rocket"></i>
+                    Get Started Quickly
+                </h3>
+                    <p>
+                        Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead">
+                    <i class="fa fa-mobile"></i>
+                    Responsive Layouts
+                </h3>
+                    <p>
+                        Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead">
+                    <i class="fa fa-th-large"></i>
+                    Modular
+                </h3>
+                    <p>
+                        Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead">
+                    <i class="fa fa-check-square-o"></i>
+                    Plays Nice
+                </h3>
+                    <p>
+                        Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="ribbon l-box-lrg pure-g">
+            <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+                <img width="300" alt="File Icons" class="pure-img-responsive" src="img/common/file-icons.png">
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+                <h2 class="content-head content-head-ribbon">Laboris nisi ut aliquip.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+                </p>
+            </div>
+        </div>
+        <div class="content">
+            <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
+            <div class="pure-g">
+                <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                    <form class="pure-form pure-form-stacked">
+                        <fieldset>
+                            <label for="name">姓名</label>
+                            <input id="name" type="text" placeholder="请输入姓名">
+                            <label for="email">邮箱</label>
+                            <input id="email" type="email" placeholder="请输入邮箱">
+                            <label for="password">密码</label>
+                            <input id="password" type="password" placeholder="请输入密码">
+                            <button type="submit" class="pure-button">提交</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                    <h4>联系我们</h4>
+                    <p>
+                        杭州经济技术开发区下沙街道天城东路955号金沙湖畔商业中心1-905室
+                    </p>
+                    <h4>更多信息</h4>
+                    <p>
+                        杭州萌点文化创意有限公司是一家游戏开发、美术设计、技术服务、游戏推广、运营维护、摄影服务、文化艺术活动策划、海外合作等与一体的网络游戏开发商。自2014年创建，一直秉承“客户至上”的精神，“诚信为本”、激情创业、求实创新、自我实现、和谐一家、共担共享、的态度为每一个客户提供最专心用心的服务!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer l-box is-center">
+            Copyright ©2016 All Rights Reserved 杭州萌点文化创意有限公司
+        </div>
+    </div>
+</body>
+
+</html>
